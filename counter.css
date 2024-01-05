@@ -1,0 +1,24 @@
+*
+{
+    box-sizing:border-box;
+}
+body
+{
+    background-color: rgb(235, 223, 209);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:90vh;
+}
+#counter
+{
+    height:300px;
+    width:300px;
+    background-color:peachpuff;
+    box-shadow: 7px 10px gray;
+    padding:60px;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+}
