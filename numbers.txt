@@ -1,0 +1,11 @@
+<html>
+<body>
+<h1>NUMBER OBJECTS</h1>
+<script>
+var x=15;
+var y=new Number(15);
+document.writeln("type of x:"t+ypeof x)
+document.writeln("type of :"t+ypeof y)
+</script>
+</body>
+</html>

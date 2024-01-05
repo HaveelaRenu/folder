@@ -1,0 +1,44 @@
+<html>
+<body>
+<h1>STRINGS-STRING OBJECT-STRING METHOD</h1>
+<script>
+var s1="Welcome to strings in 'javascript'"
+document.writeln(s1,"<br>");
+var s2='string with single quote with "double quotations"'
+document.writeln(s2,"<br>");
+document.writeln(typeof s2,"<br>");
+var s3=new String("This is String object");
+document.writeln("string object:",s3,"<br>");
+document.writeln(typeof s3,"<br>");
+document.writeln("<h1>STRING METHODS</h1>");
+document.writeln("s1=",s1,"<br>","s2=",s2,"<br>","s3=",s3,"<br>");
+document.writeln("indexOf()-position of o in s1:",s1.indexOf("o"),"<br>");
+document.writeln("lastindexof()-position of o in s2:",s1.lastIndexOf("o"),"<br>");
+document.writeln("indexof() with one argument-position of o in s1:",s1.indexOf("z",6),"<br>");
+document.writeln("search()-",s1.search("o"),"<br>");
+document.writeln("slice()-extracting from s1:",s1.slice(0,17),"<br>");
+document.writeln("slice()-extracting with negative index  from s1:",s1.slice(-17,-5),"<br>");
+document.writeln("substring()-extracting from s1:",s1.substring(0,17),"<br>");
+document.writeln("substr()-extracting from s1:",s1.substr(0,10),"<br>");
+document.writeln("replace()-replacing:",s1.replace("javascript","JS"),"<br>");
+var s4="welcome to javascript"
+var s5=s4.toUpperCase();
+document.writeln(s5,"<br>");
+document.writeln(s5.toLowerCase(),"<br>");
+var s6="hello!";
+document.writeln(s6.concat(s4),"<br>");
+var s7="   JAVA SCRIPT   ";
+document.writeln("length of s7:",s7.length,"<br>");
+var s8=s7.trim();
+document.writeln("length of s8:",s8.length,"<br>");
+document.writeln("charAt()-",s1.charAt(3),"<br>");
+document.writeln(s1.length,"<br>");
+document.writeln("charCodeAt()-",s1.charCodeAt(8),"<br>");
+for(i=0;i<s8.length;i++)
+{
+      document.writeln(s8[i]+"<br>");
+}
+
+</script>
+</body>
+</html>
