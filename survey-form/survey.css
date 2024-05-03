@@ -1,0 +1,37 @@
+body{
+    background-image: url(https://i.pinimg.com/736x/16/4a/5b/164a5b123be92a4d71c5346f6fabda17.jpg);
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-right: 230px;
+  margin-left: 230px;
+  
+  }
+  div{
+  padding: 20px;
+  background-color: #dfb1b6;
+  }
+  h1, #description{
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 0.5rem;
+  }
+  p{
+  display:block;
+  unicode-bidi: isolate;
+  }
+  #number{
+    padding: 1px 8px;
+  }
+  form{
+    padding: 40px;
+  }
+  textarea{
+    width: 40%;
+    height: 50px;
+  }
+  #submit{
+    background-color: rgb(50, 205, 50);
+    width: 20%;
+    height: 30px;
+    text-align: center;
+  }

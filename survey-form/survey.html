@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang='en'>
+  <head>
+     <meta charset="UTF-8">
+    <title>survey-form</title>
+    <link rel="stylesheet" href="survey.css" />
+  </head>
+  <body>
+    <div>
+<h1 id='title'>Survey Form</h1>
+<p id='description'>Thank you for taking the time to fill this form</p><hr>
+<form id='survey-form'>
+<p>Enter your Name:</p>
+<label for='name' id="name-label"><input type='text' id='name' placeholder='enter your name' required/>(Enter your full name)</label>
+<p>Enter your Email:</p>
+  <label for='email' id="email-label"><input type='email' id='email' placeholder='enter your email id' required/>(Enter your mail id)</label>
+  <p>Enter your Age:</p>
+  <label for='number' id="number-label"><input type='number' id='number' min='18' max='60' placeholder='enter age/></label>
+  <br>
+  <label for='dropdown'>How much would you rate this form?
+    <select id='dropdown'>
+      <option>0</option>
+      <option>1</option>
+      <option>2</option>
+      <option>3</option>
+      <option>4</option>
+      <option>5</option>
+      </select></label>
+ <p>Gender:</p>   
+  <label><input type='radio' name='gender' value='male'/>Male</label>
+  <label for='gender'><input type='radio' name='gender' value='female'/>Female</label>
+  <label><input type='radio' name='gender' value='prefer not to say'/>Prefer not to say</label><br>
+<p>Your Skills:</p>
+<label><input type='checkbox' name='prefer' value='C'/>C</label><br>
+<label><input type='checkbox' name='prefer' value='Python'/>Python</label><br>
+<label><input type='checkbox' name='prefer' value='html'/>HTML</label><br>
+<label><input type='checkbox' name='prefer' value='css'/>CSS</label><br>
+<label><input type='checkbox' name='prefer' value='js'/>JavaScript</label><br>
+<p>Suggestions:</p>
+<textarea id='comments' name='comments' placeholder='suggest anything'></textarea><br><br><br>
+<label>
+<input type='submit' id='submit' value='Submit'/></label>
+</form>
+</div>
+  </body>
+</html>
