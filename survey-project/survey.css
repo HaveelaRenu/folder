@@ -12,8 +12,8 @@ body{
   }
   h1, #description{
   text-align: center;
-  margin-top: 0;
-  margin-bottom: 0.5rem;
+  margin-top: 10px;
+  margin-bottom: 0px;
   }
   p{
   display:block;
@@ -24,6 +24,8 @@ body{
   }
   form{
     padding: 40px;
+    margin-top: 0px;
+    padding-top: 2%;
   }
   textarea{
     width: 40%;
