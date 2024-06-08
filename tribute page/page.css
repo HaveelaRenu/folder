@@ -1,0 +1,29 @@
+p , h1{
+    text-align: center;
+  }
+  img{
+    width: 100%;
+  }
+  figcaption{
+    text-align: center;
+    font-size: 20px;
+  }
+  #image{
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  body{
+  background-color: lavender;
+  }
+  #title{ background-color: white;
+  }
+  figcaption{
+  background-color: grey ;
+  }
+  ul{
+    background-color: #f4e9f3;
+  }
+  main{
+    font-size: 25px;;
+  }

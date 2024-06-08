@@ -1,3 +1,6 @@
-.header{
-
+.heading{
+    display: grid;
+    align-items: center;
+    grid-template-columns: auto;
+    column-gap: 10px;
 }
