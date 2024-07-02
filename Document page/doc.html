@@ -1,0 +1,125 @@
+<!DOCtype html>
+<html lang='en'>
+  <head>
+    <meta charset='utf-8'>
+    <meta name='viewport' content='width=device-width'>
+    <link rel='stylesheet' href='./doc.css'></link>
+    <title>Python syllabus</title>
+  </head>
+  <body>
+    <nav id='navbar'>
+      <header>Python Document</header>
+      <ul style='list-style-type: none'>
+        <li><a class='nav-link' href='#Introduction'>Introduction</a></li>
+        <li><a class='nav-link' href='#Variables'>Variables</a></li>
+        <li><a class='nav-link' href='#Data_Types'>Data Types</a></li>
+        <li><a class='nav-link' href='#Strings'>Strings</a></li>
+      <li><a class='nav-link' href='#Operators'>Operators</a></li>
+      <li><a class='nav-link' href='#Lists,_Tuples,_Sets,_Dictionaries'>Lists, Tuples, Sets, Dictionaries</a></li>
+      <li><a class='nav-link' href='#Loops'>Loops</a></li>
+      <li><a class='nav-link' href='#Functions'>Functions</a></li>
+      <li><a class='nav-link' href='#Arrays'>Arrays</a></li>
+      <li><a class='nav-link' href='#Reference'>Reference</a></li></ul>
+    </nav>
+    <main id='main-doc'>
+      <section class='main-section' id="Introduction">
+        <header>Introduction</header>
+        <p>Python is a popular programming language. It was created by Guido van Rossum, and released in 1991.It is used for:</p>
+        <ul>
+          <li>web development (server-side),</li>
+          <li>software development,</li>
+          <li>mathematics,</li>
+          <li>system scripting.</li>
+        </ul>
+        <p>Python can be used on a server to create web applications. Python can be used alongside software to create workflows. Python can connect to database systems. It can also read and modify files. <br><br>Python can be used to handle big data and perform complex mathematics. Python can be used for rapid prototyping, or for production-ready software development.</p>
+      </section>
+      <section id='Variables' class='main-section'>
+        <header>Variables</header>
+        <p>Variables are containers for storing data values. Python has no command for declaring a variable. A variable is created the moment you first assign a value to it.<br><br>Variables do not need to be declared with any particular type, and can even change type after they have been set. If you want to specify the data type of a variable, this can be done with casting.</p>
+        <code>x = str(3)    # x will be '3'<br>y = int(3)    # y will be 3<br>z = float(3)  # z will be 3.0</code>
+        <p>A variable can have a short name (like x and y) or a more descriptive name (age, carname, total_volume). A variable name cannot start with a number. A variable name cannot be any of the <a href='https://qph.cf2.quoracdn.net/main-qimg-76776950b442dd4f1f8a94b664a174df-pjlqhttps://qph.cf2.quoracdn.net/main-qimg-76776950b442dd4f1f8a94b664a174df-pjlq'>Python keywords</a>.</p>
+        </section>
+      <section class='main-section' id='Data_Types'>
+        <header>Data Types</header>
+        <p>In programming, data type is an important concept. Variables can store data of different types, and different types can do different things. Python has the following data types built-in by default, in these categories:</p>
+        <ul>
+          <li>Text Type:	str</li>
+          <li>Sequence Types:	list, tuple, range</li>
+          <li>Sequence Types:	list, tuple, range</li>
+          <li>Boolean Type:	bool</li>
+          <li>None Type:	NoneType</li>
+        </ul>
+        <p>You can get the data type of any object by using the type() function.</p>
+        <code>x = 5<br>print(type(x))</code>
+        </section><br>
+      <section class='main-section' id='Strings'>
+        <header>Strings</header>
+        <p>Strings in python are surrounded by either single quotation marks, or double quotation marks. 'hello' is the same as "hello". You can display a string literal with the print() function. Assigning a string to a variable is done with the variable name followed by an equal sign and the string. You can assign a multiline string to a variable by using three quotes</p>
+        <code>a = """Lorem ipsum dolor sit amet,
+consectetur adipiscing elit,
+sed do eiusmod tempor incididunt
+ut labore et dolore magna aliqua."""<br>print(a)</code>
+        <p>Like many other popular programming languages, strings in Python are arrays of bytes representing unicode characters. However, Python does not have a character data type, a single character is simply a string with a length of 1. Square brackets can be used to access elements of the string.</p>
+      </section>
+      <section id='Operators' class='main-section'><header>Operators</header>
+      <p>Operators are used to perform operations on variables and values. Python divides the operators in the following groups</p>
+      <ul>
+        <li>Arithmetic operators</li>
+        <li>Assignment operators</li>
+        <li>Comparison operators</li>
+        <li>Logical operators</li>
+        <li>Identity operators</li>
+        <li>Membership operators</li>
+        <li>Bitwise operators</li>
+      </ul> 
+      <p>List of <a href='https://pbs.twimg.com/media/FSZ6Sb5aIAApFv4.jpg'>Python Operators</a></p> 
+      </section>
+      <section class='main-section' id='Lists,_Tuples,_Sets,_Dictionaries'><header>Lists, Tuples, Sets, Dictionaries</header>
+      <p><b>Lists</b> are used to store multiple items in a single variable. Lists are one of 4 built-in data types in Python used to store collections of data, the other 3 are Tuple, Set, and Dictionary, all with different qualities and usage.<br>Lists are created using square brackets.</p>
+      <code>thislist = ["apple", "banana", "cherry"]<br>print(thislist)</code>
+      <p><b>Tuples</b> are used to store multiple items in a single variable. A tuple is a collection which is ordered and unchangeable.<br>Tuples are written with round brackets.</p>
+      <code>thistuple = ("apple", "banana", "cherry")<br>print(thistuple)</code>
+      <p><b>Sets</b> are used to store multiple items in a single variable. A set is a collection which is unordered, unchangeable, and unindexed.<br>Sets are written with curly brackets.</p>
+      <code>thisset = {"apple", "banana", "cherry"}
+<br>print(thisset)</code>
+<p><b>Dictionaries</b> are used to store data values in key:value pairs. A dictionary is a collection which is ordered, changeable and do not allow duplicates.<br>Dictionaries are written with curly brackets, and have keys and values.</p>
+<code>thisdict = {
+  "brand": "Ford",
+  "model": "Mustang",
+  "year": 1964
+}<br>print(thisdict)</code>
+      </section><br>
+      <section id='Loops' class='main-section'><header>Loops</header>
+      <p>Python has two primitive loop commands:
+        <ul><li>while loops</li>
+<li>for loops</li></ul></p>
+<p><b>While loop: </b>With the while loop we can execute a set of statements as long as a condition is true.</p>
+<code>i = 1<br>while i < 6:<br>&emsp; print(i)<br> &emsp; i += 1</code>
+<p>The while loop requires relevant variables to be ready, in this example we need to define an indexing variable, i, which we set to 1.</p>
+<p><b>For loop: </b>A for loop is used for iterating over a sequence (that is either a list, a tuple, a dictionary, a set, or a string). This is less like the for keyword in other programming languages, and works more like an iterator method as found in other object-orientated programming languages. With the for loop we can execute a set of statements, once for each item in a list, tuple, set etc.</p>
+<code>fruits = ["apple", "banana", "cherry"]<br>for x in fruits:<br> &emsp; print(x)</code>
+      <p>The for loop does not require an indexing variable to set beforehand.</p>
+      </section>
+      <section id='Functions' class='main-section'><header>Functions</header>
+      <p>A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.<br><br>In Python a function is defined using the def keyword. To call a function, use the function name followed by parenthesis.</p>
+      <code>def my_function():<br> &emsp; print("Hello from a function")<br><br>my_function()</code>
+      <p>Information can be passed into functions as arguments. Arguments are specified after the function name, inside the parentheses. You can add as many arguments as you want, just separate them with a comma.<br><br>The following example has a function with one argument (fname). When the function is called, we pass along a first name, which is used inside the function to print the full name:</p>
+      <code>def my_function(fname):<br> &emsp; print(fname + " Refsnes")
+      <br><br>my_function("Emil")
+my_function("Tobias")
+my_function("Linus")
+</code>
+      </section><br>
+      <section id='Arrays' class='main-section'><header>Arrays</header>
+      <p>Arrays are used to store multiple values in one single variable. An array is a special variable, which can hold more than one value at a time. An array can hold many values under a single name, and you can access the values by referring to an index number.<br>Use the len() method to return the length of an array (the number of elements in an array).</p>
+      <pre>
+cars = ["Ford", "Volvo", "BMW"]
+x = cars[0]
+print(x)
+y = len(cars)
+print(y)</pre> 
+      </section>
+      <section class='main-section' id='Reference'><header>Reference</header><ul style='list-style-type: circle'><li>All the documentation in this page is taken from <a href='https://www.w3schools.com/'>w3schools</a>.</li></ul></section>
+    </main>
+  </body>
+</html>
